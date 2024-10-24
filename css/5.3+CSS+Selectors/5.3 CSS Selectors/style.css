@@ -1,0 +1,30 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p{
+  color: red;
+}
+
+
+/* this is class selected (.) is to select class*/
+.note{
+  
+  font-size: 20px;
+}
+
+/* this is id selector (#) is to select class*/
+#id-selector-demo{
+  color: green;
+}
+
+/* this is value selector (element[value=x]) is to select class*/
+li[value="4"]{
+  color: blue;
+}
+li[value="5"]{
+  text-align: center;
+}
